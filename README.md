@@ -16,7 +16,7 @@ python relations.py --help
 
 ### Relationships between brick classes
 ```bash
-python relations.py --nodes brick:FCU brick:Air
+python3 relations.py --nodes brick:FCU brick:Air
 ```
 Output:
 ```bash
@@ -26,12 +26,12 @@ brick:Air https://brickschema.org/schema/1.1.0/Brick#isRegulatedBy brick:FCU
 ### Specifying brick model
 This can be a url or a file path.
 ```bash
-python relations.py --brick Brick.ttl --nodes brick:FCU brick:Air
+python3 relations.py --brick Brick.ttl --nodes brick:FCU brick:Air
 ```
 
 ### Relationships between instances
 ```bash
-python relations.py --model sample.ttl --nodes wean:fcu1 wean:air1
+python3 relations.py --model sample.ttl --nodes wean:fcu1 wean:air1
 ```
 Output:
 ```bash
