@@ -1,0 +1,5 @@
+@prefix wean: <https://cmu.edu/buildings/wean#> .
+@prefix brick: <https://brickschema.org/schema/1.1.0/Brick#> .
+
+wean:fcu1 a brick:FCU .
+wean:air1 a brick:Air .
