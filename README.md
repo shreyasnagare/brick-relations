@@ -23,7 +23,7 @@ Output:
 brick:FCU https://brickschema.org/schema/1.1.0/Brick#regulates brick:Air
 brick:Air https://brickschema.org/schema/1.1.0/Brick#isRegulatedBy brick:FCU
 ```
-### Specifying brick model
+### Specifying brick path
 This can be a url or a file path.
 ```bash
 python3 relations.py --brick Brick.ttl --nodes brick:FCU brick:Air
