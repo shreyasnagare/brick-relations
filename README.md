@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 
 ## Help
 ```bash
-python relations.py --help     
+python3 relations.py --help     
 ```
 
 ## Usage
