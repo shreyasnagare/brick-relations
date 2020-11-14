@@ -6,7 +6,7 @@ argparser.add_argument('--brick',
                        nargs=1,
                        metavar='PATH',
                        help='The path to the Brick ttl file. The path can be either a URL or filesystem path.',
-                       default='https://raw.githubusercontent.com/BrickSchema/Brick/master/Brick.ttl',
+                       default='https://github.com/BrickSchema/Brick/releases/download/nightly/Brick.ttl',
                        )
 argparser.add_argument('--nodes',
                        nargs=2,
